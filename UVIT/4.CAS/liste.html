@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Liste </title>
+        <meta charset="UTF-8">
+        <style>
+            ul li{
+                list-style-type: circle;
+            }
+
+            ol{
+                border:  1px solid black;
+            }
+
+            ol li{
+                list-style-type: lower-roman;
+                background-color: lightblue;
+                list-style-position: inside;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1> Liste </h1>
+        <h2> Nenumerisane Liste </h2>
+
+        <p> Meni restorana: </p>
+        <ul>
+            <li> French toast</li>
+            <li> Oeufs Benedict </li>
+            <li> French Crepes </li>
+        </ul>
+
+        <h2> Numerisane Liste</h2>
+        <p> Plan za cas uvita(html): </p>
+        <ol>
+            <li> Liste </li>
+            <li> Tabele </li>
+            <li> Veze </li>
+        </ol>
+        <p> Plan za cas uvita(CSS):</p>
+        <ol start="4"> 
+
+            <li> Liste </li>
+            <li> Tabele </li>
+            <li> Veze </li>
+        </ol>
+
+        <h2> Opisne Liste</h2>
+
+        <p> Omiljene stvari: </p>
+        <dt> Favorite drink </dt>
+        <dd> Tea </dd>
+        <dt> Favorite book: </dt>
+        <dd> Elantris/Faust</dd>
+
+        <h2> Ugnjezdene liste: </h2>
+        <p> Besmislena lista: </p>
+        <ul>
+            <li> Stavka 1</li>
+            <li> Stavka 2</li>
+            <li>
+                Stavka 3
+                <ul>
+                    <li> Stavka 3.1</li>
+                    <li> Stavka 3.2</li>
+                </ul>
+            </li>
+        </ul>
+
+    </body>
+</html>

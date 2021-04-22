@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Vezbe 3</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form method="POST">
+            <fieldset>
+        <label for="ime"> Ime </label>
+        <input type="text" name="ime" id="ime">
+         <br>
+        Prezime: <input type="text" name="prezime">
+        <br>
+        Email: <input type="email" name="email">
+        <br>
+        Lozinka: <input type="password" name="lozinka">
+        <br>
+        </fieldset>
+        Datum prijave: <input type="date" name="datum-prijave">
+        <br>
+        Smer:
+        <br>
+        <input type="radio" name="smer" value="mat"> Matematika
+        <br>
+        <input type="radio" name="smer" value="inf" checked> Informatika
+        <br>
+        <input type="radio" name="smer" value="ast"> Astronomija
+        <br>
+        Zgrade u kojima imamo casove:
+        <br>
+        <input type="checkbox" name="trg"> Studentski trg
+        <br>
+        <input type="checkbox" name="jag"> Jagiceva
+        <br>
+        <input type="checkbox" name="sn"> Svetog Nikole
+        <br>
+        <textarea rows="5" cols="40"></textarea>
+        <br><br>
+        Smer2: <br>
+        <select name="smer-2" multiple>
+            <option value="mat">Matematika</option>
+            <option value="inf">Informatika</option>
+            <option value="ast">Astronomija</option>
+        </select>
+        <br>
+        Omiljeni veb pregledac: <br>
+        <input list="pregledaci">
+        <datalist id="pregledaci">
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+        </datalist>
+        <br>
+        <input type="submit" value="posalji podatke">
+        <br>
+       
+        </form>
+    </body>
+</html>

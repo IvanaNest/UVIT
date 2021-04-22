@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 2. Zadatak </title>
+        <meta charset="UTF-8">
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <script>
+            const prva_rec = 'Ovo';
+            const druga_rec = 'je';
+            const treca_rec = 'recenica';
+
+            const cela_recenica = prva_rec + " " + druga_rec + " " + treca_rec;
+            console.log('a:', cela_recenica);
+            
+            const broj_karaktera = cela_recenica.length;
+            console.log('b:', broj_karaktera );
+            
+            let pozicija = cela_recenica.indexOf('recenica');
+            console.log('c:', pozicija);
+            pozicija = cela_recenica.indexOf('Nepostojeca');
+            console.log('c:', pozicija);
+
+            const podniska = cela_recenica.slice(7, cela_recenica.length);
+            console.log('d:', podniska);
+
+            const izmenjena_recenica = cela_recenica.replace('recenica','duza recenica');
+            console.log('e:', izmenjena_recenica);
+            
+            const velika_slova = cela_recenica.toUpperCase();
+            console.log('f:', velika_slova);
+
+            const mala_slova = cela_recenica.toLowerCase();
+            console.log('g:', mala_slova);
+
+            const recenica_sa_belinama = " \t\n\n " + cela_recenica + "\t \t \n";
+            console.log('h:', recenica_sa_belinama);
+            const osisana_recenica = recenica_sa_belinama.trim();
+            console.log('h:', osisana_recenica); 
+
+            const prvi_karakter = cela_recenica.charAt(0);
+            const poslednji_karakter = cela_recenica.charAt(cela_recenica.length-1);
+            console.log('i:', prvi_karakter, poslednji_karakter);
+
+
+        </script>
+    </body>
+</html>
